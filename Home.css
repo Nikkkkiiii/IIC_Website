@@ -1,0 +1,629 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-size: cover;
+    scroll-behavior: smooth;
+    
+}
+
+ul a:hover{
+    overflow: visible;
+    color: red;
+
+}
+body {
+    background-image: url("https://iic.edu.np/assets/images/LMU2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.slidesFade{
+   height: 100vh;
+   background-image: url('./pictures/bit.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.description{
+    text-align: justify;
+    background: #eee;
+    z-index: 100;       
+    height: 0%;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 50px 100px 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.description span {
+    float: right;
+    font-size: 28px;
+    line-height: 30px;
+    color: #222;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    position: sticky;
+    border-bottom: solid #20409a;
+    border: bottom width 10px;
+}
+
+.description p {
+    float: right;
+    padding: 70px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    align-items: center;
+    font-size: 1em;
+    color: #999;
+    border-bottom: #000;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+nav ul {
+    float: left;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav ul li {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding-bottom: 0.8em;
+    /* display: none; */
+}
+
+nav ul a:hover {
+    border-bottom: 3px solid #333;
+    color: #20409a;
+    cursor: pointer;
+    font-size: 19.2px;
+    font-family: 'Oswald';
+}
+header {
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.1));
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 91;
+}
+.Text {
+    z-index: 90;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Text p {
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    margin: 2em 0 1em;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+
+}
+
+.Text h3 {
+    text-align: center;
+    font-size: 3.5em;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-size: 3em;
+}
+
+.Text h3 span {
+    color: #ed1c24;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.partner {
+    color: rgb(109, 110, 113);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.IICPartner h1{
+    color: white;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.partner ul {
+    padding: 7px;
+}
+.OurPartners {
+    /* height: 400px; */
+    background-size: cover;
+    /* background-position: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 2em 0;
+    background: rgba(255, 255, 255, 0.18);
+}
+h1 {
+    color: white; 
+    text-transform: capitalize;
+    color: #6d6e71;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.main {
+    
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 80vw;
+    color: #000;
+    gap: 30%;
+    top: -7px;
+    left: -7px;
+    padding: 7px;
+}
+.main span{
+    padding: 7px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.Programmes {
+    display: flex;
+    justify-content: space-between;
+}
+.Programmes .content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.Programmes .content label {
+    text-decoration: none;
+    line-height: 40px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Oswald', Helvetica, arial, sans-serif;
+    size: 100%;
+}
+.Programmes .content p {
+    font-family: 'Oswald', sans-serif;       
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+}
+.content label:hover {
+    color: #bf1e2e;
+}
+.content h3 {
+    font-size: 25px;
+    line-height: 1.1;
+    margin: 0 0 15px 0;
+    margin-top: 0px;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    letter-spacing: 0;
+}
+.Programmes .bitImage {
+    width: 50%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.popUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.724);
+}
+.testimonials {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://iic.edu.np/assets/images/testimonial.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+
+}
+.testcontains {
+    z-index: 90;
+    color: white;
+    height: 60%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testcontains .slides img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.testimonial-left {
+    display: flex;
+    justify-content: center;
+}
+.testcontains {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testcontains ul {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.testcontains ul li {
+    display: flex;
+    min-width: 1000px;
+    transition: all 0.5s ease;
+}
+.wthree-testi_grid p {
+    color: #fff;
+    line-height: 1.9em;
+    margin: 2em auto 1em;
+    font-size: 1em;
+    text-align: center;
+}
+
+.wthree-testi_grid h5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wthree-testi_grid h6 {
+    color: #f9b3b3;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uk-margin-top-remove {
+    margin-top: 0 !important;
+    font-family: 'Josefin Sans', sans-serif;
+    /* line-height: 1.8em; */
+}
+.uk-text-bold {
+    font-weight: bold;
+}
+ h3{
+    margin: 0 0 15px 0;
+    font-weight: normal;
+    color: #222;
+    letter-spacing: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.Admissions{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+   
+    /* width: 100%; */
+    
+}
+.Admissions .adphoto{
+    /* float: right; */
+    width: 50%;
+}
+
+.Admissions .content {
+    margin: 25px;
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    /* background-color: white; */
+    font-family: 'PT Sans', sans-serif;
+}
+.Admissions .adphoto{
+    width: 50%;
+}
+.entry-title {
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    color: #4a4a4a;
+    padding: 0;
+    padding-top: 5px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul{
+    list-style-type: disc;
+    line-height: 1.8em;
+}
+.uk-list {
+    padding: 0;
+    list-style: none;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+.Admissions p{
+    line-height: 1.8em;
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    list-style: none;
+}
+.style{
+    margin: 30px;
+    color: #333333;
+    font-size: 16px;
+}
+.Event {
+    /* position: relative; */
+    /* width: 100%;
+    height: 200%; */
+    /* padding-bottom: 5px; */
+    /* margin-top: 10%; */
+    background-color:#eeeeee;
+  }
+  
+.Event_Title {
+  font-size: 50px;
+  margin: 40px 0px 0px 170px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.405);
+  display: inline-block;
+  padding-bottom: 20px;
+}
+  
+.Event_Title_underline {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  /* margin: 20px 0px 0px 170px; */
+  width: fit-content;
+}
+.Img {
+    width: 900px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 100px;
+  }
+  
+  .Img_Item {
+    position: relative;
+    width: calc(25%);
+    height: calc(25%);
+    background-color: rgb(200, 200, 200);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+.Img_Item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%; */
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.Img_Item:hover:before {
+  opacity: 1;
+}
+
+.Img_Item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.Img_Item:hover img {
+  transform: scale(1.1);
+}
+
+.Img_Item_Text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  transform: scale(0);
+  transition: all 1s;
+  width: 100%;
+  height: 100%;
+}
+
+.Img_Item:hover .Img_Item_Text {
+  opacity: 1;
+  transform: scale(1);
+}
+.Img_Item.last {
+    margin-bottom: 100px; /* Adjust the value as per your preference */
+  }
+.register-division {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    /* height: 150%; */
+    /* margin-top: 269.5%; */
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+  
+.register-title {
+  font-size: 30px;
+  padding: 19px 0px 0px 162px;
+}
+
+.register-description {
+  font-size: 18px;
+  margin: 10px 1px 1px 162px;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+  width: 187%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #000000aa;
+  color: white;
+  padding: 10px 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+form {
+  max-width: 400px;
+  margin: 40px 0px 0px 162px;
+}
+
+.row1,
+.row2 {
+  width: 200%;
+  display: flex;
+  gap: 30px;
+}
+
+.row1 input,
+.row2 input {
+  width: 349px;
+  margin-right: 20px;
+}
+.Contact{
+/* width: 100%; */
+/* height: 500%; */
+    background-color: white
+    
+    
+}
+.Contact_title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px 0px 0px 162px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.781);
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.map{
+  position: absolute;
+  height: 60px;
+  width: 60%;
+  background: #58585a;
+  margin: 20px 0px 0px 162px;
+  /* background-color: white ; */
+}
+.contact-info {
+  padding-left: 100px;
+}
+.map_text{
+    color: white;
+    margin: 19px 1px 1px 50px;
+    width: 100%;
+}
+iframe{
+  margin: 80px 1px 1px 162px;
+  width: 61.5%;
+}
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: #58585aed;
+  margin-top: 90%;
+  
+  /* padding-bottom: 10px; */
+  /* margin-bottom: 100%; */
+}
+
+.footer p{
+  font-size: 15px;
+  padding: 40px 0px 0px 25px;
+  color: white;
+  /* display: inline-block; */
+}
